@@ -1,3 +1,21 @@
+# Node
+node_modules/
+frontend/node_modules/
+
+# Project secrets and local environments
+.env
+.env.local
+backend/.env
+backend/.env.local
+.venv/
+backend/.venv/
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -149,6 +167,7 @@ activemq-data/
 
 # Environments
 .env
+.env.example
 .envrc
 .venv
 env/
